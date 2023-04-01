@@ -480,6 +480,10 @@ a {
   margin-bottom: 4rem;
 }
 
+.about__text-primary a{
+  text-decoration: underline;
+}
+
 .about__info-heading {
   margin-bottom: 3rem;
   color: #555;
@@ -937,8 +941,3 @@ a {
   display: flex;
   flex-direction: row;
 }
-
- img.blue_tint {
-        filter: invert(43%) sepia(15%) saturate(2087%) hue-rotate(194deg) brightness(95%) contrast(85%);
-        margin-top: -2px;
-    }
